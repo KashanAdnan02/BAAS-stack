@@ -1,0 +1,14 @@
+.para {
+  color: red;
+  background-color: black;
+  /* serif sans-serif monospace */
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 40px;
+  text-decoration: underline solid;
+  text-align: center;
+  text-transform: capitalize;
+  /* letter-spacing: 20px; */
+  word-spacing: 50px;
+}
