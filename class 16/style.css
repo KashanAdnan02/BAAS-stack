@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu {
+  width: 22px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.btn {
+  background: #dfefff4d;
+  border: 2px solid #ea002a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.pickup,
+.merch {
+  border: none;
+}
+.btn img {
+  width: 25px;
+}
+.btn p {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right img {
+  width: 45px;
+}
+.right button {
+  background-color: #ea002a;
+  color: white;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 400px) {
+  .right img {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .right button {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .right img {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .right button {
+    display: none;
+  }
+}

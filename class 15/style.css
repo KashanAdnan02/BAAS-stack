@@ -1,0 +1,19 @@
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: blanchedalmond;
+}
+
+.bx1 {
+  width: 1000px;
+  height: 200px;
+  position: sticky;
+  background: tomato;
+  top: 0;
+}
+
+.bx2 {
+  width: 200px;
+  height: 200px;
+  background: teal;
+}
